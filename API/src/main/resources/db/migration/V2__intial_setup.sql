@@ -89,7 +89,7 @@ CREATE TABLE if not exists student
     CONSTRAINT pk_student PRIMARY KEY (id)
 );
 
-ALTER TABLE driver_bookings
+ALTER TABLE  driver_bookings
     ADD CONSTRAINT uc_driver_bookings_bookings UNIQUE (bookings_id);
 
 ALTER TABLE driver

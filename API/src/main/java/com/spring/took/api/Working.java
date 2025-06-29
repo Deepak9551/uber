@@ -1,14 +1,12 @@
 package com.spring.took.api;
 
-import com.spring.took.api.Todo.Entity.*;
-import com.spring.took.api.Todo.Enum.BookingStatus;
+import com.spring.took.api.Uber.Reposistory.BookingRepository;
+import com.spring.took.api.Uber.Reposistory.DriverRepository;
+import com.spring.took.api.Uber.Reposistory.PassengerReposistory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.lang.reflect.Array;
-import java.util.*;
 
 @Service
 public class Working implements CommandLineRunner {
